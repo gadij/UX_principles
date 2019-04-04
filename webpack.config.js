@@ -6,6 +6,7 @@ const htmlPlugin = new htmlWebPackPlugin({
 })
 
 module.exports = {
+    devtool: 'source-map',
     module: {
         rules: [
             {
@@ -30,6 +31,12 @@ module.exports = {
                             minimize: true
                         }
                     }
+                ]
+            },
+            {
+                test: /\.(png|svg|jpg|gif)$/,
+                use: [
+                    'file-loader'
                 ]
             }
         ]
