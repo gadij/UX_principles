@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 // import FillBar from './components/fillBar'
-import UserDetails from './components/userDetails'
-import PizzaDetails from './components/pizzaDetails'
+import { UserDetails } from './components'
+import { PizzaDetails } from './components'
 
 import './index.scss';
 

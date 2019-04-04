@@ -1,9 +1,6 @@
 import React from "react";
 import Multiselect from 'multiselect-dropdown-react';
 
-import './form.scss';
-import './topings.scss';
-
 const optionsForTopings = [
     {
         name: "Mashrooms",
