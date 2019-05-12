@@ -1,5 +1,6 @@
 import React from "react";
 import Multiselect from 'multiselect-dropdown-react';
+import '../style/form.scss';
 
 const optionsForTopings = [
     {
